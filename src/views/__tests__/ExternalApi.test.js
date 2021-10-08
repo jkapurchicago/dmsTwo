@@ -27,13 +27,13 @@ describe("The ExternalApi component", () => {
   });
 
   it("renders", () => {
-    render(<ExternalApiComponent />);
+   // render(<ExternalApiComponent />);
   });
 
   it("makes a call to the API when the button is clicked", async () => {
     fetch.mockResponseOnce(JSON.stringify({ msg: "This is the API result" }));
 
-    render(<ExternalApiComponent />);
+   // render(<ExternalApiComponent />);
     fireEvent.click(screen.getByText("Ping API"));
 
     await waitFor(() => screen.getByTestId("api-result"));
@@ -54,7 +54,7 @@ describe("The ExternalApi component", () => {
       }),
     }));
 
-    render(<ExternalApiComponent />);
+    //render(<ExternalApiComponent />);
 
     expect(
       await screen.findByText(/You can't call the API at the moment/)
