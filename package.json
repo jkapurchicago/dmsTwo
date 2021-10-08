@@ -1,10 +1,10 @@
-{
++{
   "name": "auth0-react-sample",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "start": "npm-run-all --parallel spa api-server",
-    "build": "CI=false npm run build",
+    "build": "react-scripts build",
     "test": "react-scripts test --env=jest-environment-jsdom-sixteen",
     "eject": "react-scripts eject",
     "spa": "react-scripts start",
