@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "start": "npm-run-all --parallel spa api-server",
-    "build": "react-scripts build",
+   "build": "CI=false npm run build",
     "test": "react-scripts test --env=jest-environment-jsdom-sixteen",
     "eject": "react-scripts eject",
     "spa": "react-scripts start",
@@ -13,7 +13,7 @@
     "api-server": "node api-server.js",
     "api-server:dev": "nodemon api-server.js",
     "dev": "npm-run-all --parallel spa api-server:dev",
-    "prod": "npm-run-all --parallel server api-server"
+    "prod": "npm-run-Yall --parallel server api-server"
   },
   "dependencies": {
     "@auth0/auth0-react": "^1.8.0",
