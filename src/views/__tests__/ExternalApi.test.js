@@ -1,6 +1,5 @@
 import React from "react";
-//eslint-disable-next-line no-unused-vars
-import { ExternalApiComponent } from "../ExternalApi";
+//import { ExternalApiComponent } from "../ExternalApi";
 import { fireEvent, render, screen, waitFor } from "@testing-library/react";
 import "@testing-library/jest-dom/extend-expect";
 
