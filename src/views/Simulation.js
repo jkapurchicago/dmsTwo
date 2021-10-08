@@ -21,6 +21,7 @@ export const SimulationComponent = () => {
   } = useAuth0();
 
 
+  
   return (
     <>
       <Form>
@@ -28,13 +29,34 @@ export const SimulationComponent = () => {
         <select>
           </select>
         <Form.Text className="text-muted">
-            Simulation
+            Cardio Vascular Disease Survey
         </Form.Text>
       </Form.Group>
+ 
+ 
 
-<Form> 
-<p>Which Blood Thinner do you take?</p>
-<radio>Yes</radio>x
+<h3>1. Which Blood Thinner do you take?</h3>
+
+<h3>2. What is your Average Blood Pressure?</h3>
+
+<h3>3. Do you Smoke?</h3>
+
+<h4>4. Do you Exercise Daily?</h4>
+
+<h3>5. How much do you weight?</h3>
+
+<h3>6. Rate your diet from a scale of 1 being the best and 10 being the worst</h3>
+
+
+
+
+
+
+
+
+
+
+
 </Form>
 
   <Form>
@@ -58,14 +80,12 @@ export const SimulationComponent = () => {
   </Button>
 </Form>
 
-      <Button variant="primary" type="submit">
-        Submit
-      </Button>
-      <Button> Test</Button>
-    </Form>
-    </>
+</>
+
+
   );
 };
+
 
 export default withAuthenticationRequired(SimulationComponent, {
   onRedirecting: () => <Loading />,
