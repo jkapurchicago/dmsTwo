@@ -32,8 +32,7 @@ jobs:
         with:
           name: node-ap
           path: |
-                    tests/t*.log
-                    tests/t*.ee
+                   /Users/arcjten/Desktop/dmsTwo/report.html
          
 
   deploy:
