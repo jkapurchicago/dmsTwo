@@ -49,8 +49,7 @@ jobs:
         with:
           name: node-app
           path: |
-                    tests/t*.log
-                    tests/t*.ee
+                    .github/workflows/report.html
 
       - name: 'Deploy to Azure Web App'
         id: deploy-to-webapp
