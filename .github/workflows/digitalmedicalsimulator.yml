@@ -49,7 +49,7 @@ jobs:
         with:
           name: node-app
           path: |
-                    .github/workflows/report.html
+                    /Users/arcjten/Desktop/dmsTwo/report.html
 
       - name: 'Deploy to Azure Web App'
         id: deploy-to-webapp
