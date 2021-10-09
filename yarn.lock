@@ -4784,6 +4784,16 @@
     "string.prototype.matchall" "^4.0.2"
     "xregexp" "^4.3.0"
 
+"eslint-plugin-vue@^7.19.1":
+  "integrity" "sha512-e2pD7nW2sTY04ThH+66BgToNwC4n6dqfNhKE+ypdJFtZgn3Zn+nP8ZEIFPG0PGqCKQ3qxy8dJk1bzUsuQd3ANA=="
+  "resolved" "https://registry.npmjs.org/eslint-plugin-vue/-/eslint-plugin-vue-7.19.1.tgz"
+  "version" "7.19.1"
+  dependencies:
+    "eslint-utils" "^2.1.0"
+    "natural-compare" "^1.4.0"
+    "semver" "^6.3.0"
+    "vue-eslint-parser" "^7.10.0"
+
 "eslint-scope@^4.0.3":
   "integrity" "sha512-p7VutNr1O/QrxysMo3E45FjYDTeXBy0iTltPFNSqKAIfjDSXC+4dj+qfyuD8bfAXrW/y6lW3O76VaYNPKfpKrg=="
   "resolved" "https://registry.npmjs.org/eslint-scope/-/eslint-scope-4.0.3.tgz"
@@ -4792,7 +4802,7 @@
     "esrecurse" "^4.1.0"
     "estraverse" "^4.1.1"
 
-"eslint-scope@^5.0.0":
+"eslint-scope@^5.0.0", "eslint-scope@^5.1.1":
   "integrity" "sha512-2NxwbF/hZ0KpepYN0cNbo+FN6XoK7GaHlQhgx/hIZl6Va0bF45RQOOwhLIy8lQDbuCiadSLCBnH2CFYquit5bw=="
   "resolved" "https://registry.npmjs.org/eslint-scope/-/eslint-scope-5.1.1.tgz"
   "version" "5.1.1"
@@ -4807,7 +4817,7 @@
   dependencies:
     "eslint-visitor-keys" "^1.1.0"
 
-"eslint-utils@^2.0.0":
+"eslint-utils@^2.0.0", "eslint-utils@^2.1.0":
   "integrity" "sha512-w94dQYoauyvlDc43XnGB8lU3Zt713vNChgt4EWwhXAP2XkBvndfxF0AgIqKOOasjPIPzj9JqgwkwbCYD0/V3Zg=="
   "resolved" "https://registry.npmjs.org/eslint-utils/-/eslint-utils-2.1.0.tgz"
   "version" "2.1.0"
@@ -4819,7 +4829,7 @@
   "resolved" "https://registry.npmjs.org/eslint-visitor-keys/-/eslint-visitor-keys-1.3.0.tgz"
   "version" "1.3.0"
 
-"eslint@^3 || ^4 || ^5 || ^6 || ^7", "eslint@^3.0.0 || ^4.0.0 || ^5.0.0 || ^6.0.0", "eslint@^6.6.0":
+"eslint@^3 || ^4 || ^5 || ^6 || ^7", "eslint@^3.0.0 || ^4.0.0 || ^5.0.0 || ^6.0.0", "eslint@^6.2.0 || ^7.0.0 || ^8.0.0-0", "eslint@^6.6.0", "eslint@>=5.0.0":
   "integrity" "sha512-K+Iayyo2LtyYhDSYwz5D5QdWw0hCacNzyq1Y821Xna2xSJj7cijoLLYmLxTQgcgZ9mC61nryMy9S7GRbYpI5Ig=="
   "resolved" "https://registry.npmjs.org/eslint/-/eslint-6.8.0.tgz"
   "version" "6.8.0"
@@ -4862,7 +4872,7 @@
     "text-table" "^0.2.0"
     "v8-compile-cache" "^2.0.3"
 
-"espree@^6.1.2":
+"espree@^6.1.2", "espree@^6.2.1":
   "integrity" "sha512-ysCxRQY3WaXJz9tdbWOwuWr5Y/XrPTGX9Kiz3yoUXwW0VZ4w30HTkQLaGx/+ttFjF8i+ACbArnB4ce68a9m5hw=="
   "resolved" "https://registry.npmjs.org/espree/-/espree-6.2.1.tgz"
   "version" "6.2.1"
@@ -4876,10 +4886,10 @@
   "resolved" "https://registry.npmjs.org/esprima/-/esprima-4.0.1.tgz"
   "version" "4.0.1"
 
-"esquery@^1.0.1":
-  "integrity" "sha512-olpvt9QG0vniUBZspVRN6lwB7hOZoTRtT+jzR+tS4ffYx2mzbw+z0XCOk44aaLYKApNX5nMm+E+P6o25ip/DHQ=="
-  "resolved" "https://registry.npmjs.org/esquery/-/esquery-1.3.1.tgz"
-  "version" "1.3.1"
+"esquery@^1.0.1", "esquery@^1.4.0":
+  "integrity" "sha512-cCDispWt5vHHtwMY2YrAQ4ibFkAL8RbH5YGBnZBc90MolvvfkkQcJro/aZiAQUlQ3qgrYS6D6v8Gc5G5CQsc9w=="
+  "resolved" "https://registry.npmjs.org/esquery/-/esquery-1.4.0.tgz"
+  "version" "1.4.0"
   dependencies:
     "estraverse" "^5.1.0"
 
@@ -7774,7 +7784,7 @@
   "resolved" "https://registry.npmjs.org/lodash.uniq/-/lodash.uniq-4.5.0.tgz"
   "version" "4.5.0"
 
-"lodash@^4.17.11", "lodash@^4.17.13", "lodash@^4.17.14", "lodash@^4.17.15", "lodash@^4.17.19", "lodash@^4.17.20", "lodash@^4.17.5", "lodash@>=3.5 <5", "lodash@>=4.17.21":
+"lodash@^4.17.11", "lodash@^4.17.13", "lodash@^4.17.14", "lodash@^4.17.15", "lodash@^4.17.19", "lodash@^4.17.20", "lodash@^4.17.21", "lodash@^4.17.5", "lodash@>=3.5 <5", "lodash@>=4.17.21":
   "integrity" "sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg=="
   "resolved" "https://registry.npmjs.org/lodash/-/lodash-4.17.21.tgz"
   "version" "4.17.21"
@@ -12329,6 +12339,19 @@
   "integrity" "sha512-2ham8XPWTONajOR0ohOKOHXkm3+gaBmGut3SRuu75xLd/RRaY6vqgh8NBYYk7+RW3u5AtzPQZG8F10LHkl0lAQ=="
   "resolved" "https://registry.npmjs.org/vm-browserify/-/vm-browserify-1.1.2.tgz"
   "version" "1.1.2"
+
+"vue-eslint-parser@^7.10.0":
+  "integrity" "sha512-qh3VhDLeh773wjgNTl7ss0VejY9bMMa0GoDG2fQVyDzRFdiU3L7fw74tWZDHNQXdZqxO3EveQroa9ct39D2nqg=="
+  "resolved" "https://registry.npmjs.org/vue-eslint-parser/-/vue-eslint-parser-7.11.0.tgz"
+  "version" "7.11.0"
+  dependencies:
+    "debug" "^4.1.1"
+    "eslint-scope" "^5.1.1"
+    "eslint-visitor-keys" "^1.1.0"
+    "espree" "^6.2.1"
+    "esquery" "^1.4.0"
+    "lodash" "^4.17.21"
+    "semver" "^6.3.0"
 
 "w3c-hr-time@^1.0.1", "w3c-hr-time@^1.0.2":
   "integrity" "sha512-z8P5DvDNjKDoFIHK7q8r8lackT6l+jo/Ye3HOle7l9nICP9lf1Ci25fy9vHd0JOWewkIFzXIEig3TdKT7JQ5fQ=="

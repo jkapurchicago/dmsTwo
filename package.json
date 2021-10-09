@@ -41,6 +41,7 @@
     "@testing-library/jest-dom": "^5.10.1",
     "@testing-library/react": "^10.3.0",
     "eslint-plugin-react": "^7.26.1",
+    "eslint-plugin-vue": "^7.19.1",
     "jest-environment-jsdom-sixteen": "^1.0.3",
     "jest-fetch-mock": "^3.0.3",
     "nodemon": "^2.0.4"
@@ -57,13 +58,13 @@
     "parserOptions": {
       "parser": "babel-eslint"
     },
-      "plugins": [
-          "react"
-      ],
-      "rules": {
-          "react/jsx-uses-vars": "error",
-          "react/jsx-uses-react": "error"
-      }
+    "plugins": [
+      "react"
+    ],
+    "rules": {
+      "react/jsx-uses-vars": "error",
+      "react/jsx-uses-react": "error"
+    }
   },
   "browserslist": {
     "production": [
