@@ -31,7 +31,9 @@ jobs:
         uses: actions/upload-artifact@v2
         with:
           name: node-ap
-           path: build
+          path: |
+                    tests/t*.log
+                    tests/t*.ee
          
 
   deploy:
