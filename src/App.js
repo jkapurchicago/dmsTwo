@@ -17,6 +17,7 @@ import initFontAwesome from "./utils/initFontAwesome";
 import PatientInfo from "./views/PatientInfo";
 import DoctorInfo from "./views/DoctorInfo";
 import Simulation from "./views/Simulation";
+import medication from "./views/medication";
 initFontAwesome();
 
 const App = () => {
@@ -41,6 +42,8 @@ const App = () => {
             <Route path="/patient-info" component={PatientInfo} />
             <Route path="/doctor-info" component={DoctorInfo} />
             <Route path="/simulation" component={Simulation} />
+              <Route path="/medication" component={medication} />
+
           </Switch>
         </Container>
       </div>
