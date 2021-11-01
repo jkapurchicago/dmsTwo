@@ -92,6 +92,48 @@ const NavBar = () => {
                   </NavLink>
                 </NavItem>
               )}
+              {isAuthenticated && (
+                  <NavItem>
+                    <NavLink
+                        tag={RouterNavLink}
+                        to="/TestResults"
+                        exact
+                        activeClassName="router-link-exact-active"
+                    >
+                      Test Results
+                    </NavLink>
+                  </NavItem>
+              )}
+
+              {isAuthenticated && (
+                  <NavItem>
+                    <NavLink
+                        tag={RouterNavLink}
+                        to="/BehavioralMetrics"
+                        exact
+                        activeClassName="router-link-exact-active"
+                    >
+                      Behavioral Metrics
+                    </NavLink>
+                  </NavItem>
+              )}
+              {isAuthenticated && (
+                  <NavItem>
+                    <NavLink
+                        tag={RouterNavLink}
+                        to="/MedicationList"
+                        exact
+                        activeClassName="router-link-exact-active"
+                    >
+                      Medication List
+                    </NavLink>
+                  </NavItem>
+              )}
+
+
+
+
+
 
             </Nav>
             <Nav className="d-none d-md-block" navbar>

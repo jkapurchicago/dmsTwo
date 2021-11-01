@@ -18,6 +18,11 @@ import PatientInfo from "./views/PatientInfo";
 import DoctorInfo from "./views/DoctorInfo";
 import Simulation from "./views/Simulation";
 import medication from "./views/medication";
+import TestResults from "./views/TestResults"
+import BehavioralMetrics from "./views/BehavioralMetrics"
+import MedicationList from "./views/MedicationList"; 
+
+
 initFontAwesome();
 
 const App = () => {
@@ -41,8 +46,18 @@ const App = () => {
             <Route path="/profile" component={Profile} />
             <Route path="/patient-info" component={PatientInfo} />
             <Route path="/doctor-info" component={DoctorInfo} />
+            <Route path="/medication" component={medication} />
             <Route path="/simulation" component={Simulation} />
-              <Route path="/medication" component={medication} />
+            <Route path="/TestResults" component={TestResults} /> 
+            <Route path ="/BehavioralMetrics"component={BehavioralMetrics} />
+            <Route path="/MedicationList" component={MedicationList} />
+
+
+
+
+
+
+
 
           </Switch>
         </Container>
